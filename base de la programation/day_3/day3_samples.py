@@ -11,7 +11,7 @@
 # print("The square root of", number_to_sqrt, "is", sqrt(number_to_sqrt))
 
 
-#using alias 
+#using alias pour faire de version court
 
 import math as m
 print(m.sqrt(16))
