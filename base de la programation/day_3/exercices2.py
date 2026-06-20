@@ -1,8 +1,10 @@
 import math_operations as mo
 
 
-num1 = 10
-num2 = 5
+print("Mathematical Operations:")
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
 print("Addition:", mo.add(num1, num2))
 print("Subtraction:", mo.substraction(num1, num2))
