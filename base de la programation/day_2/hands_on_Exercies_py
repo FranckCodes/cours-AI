@@ -1,0 +1,10 @@
+numberPrime = int(input("Enter a number: "))
+if (numberPrime > 1):
+    for i in range(2, numberPrime):
+        if (numberPrime % i == 0):
+            print(f"{numberPrime} The number is not prime.")
+            break
+    else:
+        print( f"{numberPrime} The number is prime.")
+else:
+    print(f"{numberPrime} The number is not prime.")
